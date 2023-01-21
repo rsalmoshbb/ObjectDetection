@@ -1,1 +1,2 @@
-# ObjectDetection
+# ObjectDetection 
+In this project, we train the YOLOv7[1] model on a pre-annotated dataset that contains 8 classes of visual pollution. After that, we run the trained model on the test images to find the class name and bounding box's coordinates. Finally, we export the result to a .csv file that contains the class, image_path, name of the class, and coordinates of the bounding box as xmin, ymin, xmax, and ymax.
